@@ -7,3 +7,9 @@ Write shell script for the following
   b.	Delete unwanted files: The user would be asked to enter the file name(s) the files should be removed from the current directory. Wild cards can also be accepted for example *.txt etc.
   c.	Prepare for backup: The user would be asked for file (s) to back up and the files should be moved to a folder called backup in the current directory.  The backup directory should be existing Wild cards can also be accepted.
   d.	Exit 
+
+2) Write a shell script to print a number in reverse order. It should support the following requirements.
+•	The script should accept the input from the command line.
+•	If you don’t input any data, then script should ask for user input.
+
+3) Write a shell script to delete the lines containing a word <dd> if it appears between line number 5th and 7th
