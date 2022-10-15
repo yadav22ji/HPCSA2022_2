@@ -1,0 +1,34 @@
+Q1: Write a shell script to validate password strength. Here are a few assumptions for the password string.
+	a. Length  – minimum of 8 characters.
+	b. Contain both alphabet and number.
+	c. Include both the small and capital case letters.
+	
+Q2: For each directory in the $PATH, display the number of executable files in that directory.
+
+Q3: Write script to print contents of file from given line number to next given number of lines.
+ -- take starting and ending line number as comma separated value
+ eg:
+ root@localhost$ bash print_lines.sh content_file
+ Enter starting and ending postions: 4,15   --- user will provide a comma separated value
+
+
+Q4: Write a script to print the following system information
+    a. Currently logged users
+    b. Your shell directory
+    c. Home directory
+    d. OS name & version
+    e. Current working directory
+    f. Number of users logged in
+    f. gShow all available shells in your system
+    h. Hard disk information
+    i. CPU information
+    j. Memory information
+    k. File system information
+    l. Currently running process
+	
+
+Q5: Write a script for generating random 8-character passwords including alpha numeric characters	
+
+Q6: List the shells defined in /etc/passwd but not in /etc/shells
+
+Q7: Check User Home Directory Permission for non system users. Non system users are the one having user id 1000 and above.
