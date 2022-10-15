@@ -1,7 +1,9 @@
 Write shell script for the following                                  									          
  
 1) Write a shell script which will display a menu consisting of the following    : 
-  a.	Display User environment details: The   following information should be displayed, User id and his Log name, Home directory, Current shell
+  a.	Display User environment details: The following information should be displayed, User id and his Login name, Home directory, Current shell
+           Use file:  /etc/passwd
+
   b.	Delete unwanted files: The user would be asked to enter the file name(s) the files should be removed from the current directory. Wild cards can also be accepted for example *.txt etc.
   c.	Prepare for backup: The user would be asked for file (s) to back up and the files should be moved to a folder called backup in the current directory.  The backup directory should be existing Wild cards can also be accepted.
   d.	Exit 
